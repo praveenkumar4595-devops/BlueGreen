@@ -8,7 +8,7 @@ spec:
   type: ClusterIP
   selector:
     app: my-app
-    version: <+infra.trafficShift.stageVersion>  # Points to the non-live version
+    version: blue  # Points to the non-live version
   ports:
     - protocol: TCP
       port: 80

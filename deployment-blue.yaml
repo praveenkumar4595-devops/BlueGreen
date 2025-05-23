@@ -19,6 +19,6 @@ spec:
     spec:
       containers:
         - name: my-app-container
-          image: <+artifact.image>  # Harness will substitute this
+          image: nginx:latest  # Harness will substitute this
           ports:
             - containerPort: 8080
